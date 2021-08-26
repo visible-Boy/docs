@@ -6,6 +6,8 @@ description: How to request our API.
 
 The response that will be obtained varies from the type of endpoint \(`JSON` or `BUFFER`\)
 
+## _`JSON ({})`_
+
 ## JavaScript
 
 To obtain the **JSON** response from a request to an API, you must use a package that allows you to do so, such as [axios ](https://npmjs.com/package/axios)or [node-fetch](https://npmjs.com/packages/node-fetch)
