@@ -28,7 +28,7 @@ Your API token access.
 Video
 {% endapi-method-response-example-description %}
 
-```json
+```javascript
 {
 "url":"link.mp4"
 }
@@ -74,7 +74,7 @@ Your API token access.
 Meme
 {% endapi-method-response-example-description %}
 
-```json
+```javascript
 {
 "url":"link"
 }
@@ -86,7 +86,7 @@ Meme
 Not found because not key given or invalid key.
 {% endapi-method-response-example-description %}
 
-```json
+```javascript
 { 
 "error": ""The key to the API access that you provided is invalid! Make sure you have written it correctly. Any issue? Join us: https://api.willz.repl.co""
 }
@@ -108,6 +108,10 @@ Returns a URL of a image searched.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-query-parameters %}
+{% api-method-parameter name="search" type="string" required=false %}
+Query to search.
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="key" type="string" required=true %}
 Your API token access.
 {% endapi-method-parameter %}
@@ -120,7 +124,7 @@ Your API token access.
 Meme
 {% endapi-method-response-example-description %}
 
-```json
+```javascript
 {
 "image":"link"
 }
@@ -132,7 +136,7 @@ Meme
 Not found because not key given or invalid key.
 {% endapi-method-response-example-description %}
 
-```json
+```javascript
 { 
 "error": "The key to the API access that you provided is invalid! Make sure you have written it correctly. Any issue? Join us: https://api.willz.repl.co"
 }
@@ -141,3 +145,4 @@ Not found because not key given or invalid key.
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
