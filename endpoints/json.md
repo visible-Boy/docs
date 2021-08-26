@@ -15,11 +15,11 @@ Returns a spanish video URL.
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
+{% api-method-query-parameters %}
 {% api-method-parameter name="key" type="string" required=true %}
 Your API token access.
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -61,11 +61,11 @@ Returns a spanish meme URL.
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
+{% api-method-query-parameters %}
 {% api-method-parameter name="key" type="string" required=true %}
 Your API token access.
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -107,11 +107,11 @@ Returns a URL of a image searched.
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
+{% api-method-query-parameters %}
 {% api-method-parameter name="key" type="string" required=true %}
 Your API token access.
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
