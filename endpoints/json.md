@@ -108,7 +108,7 @@ Returns a URL of a image searched.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-query-parameters %}
-{% api-method-parameter name="search" type="string" required=false %}
+{% api-method-parameter name="search" type="string" required=true %}
 Query to search.
 {% endapi-method-parameter %}
 
